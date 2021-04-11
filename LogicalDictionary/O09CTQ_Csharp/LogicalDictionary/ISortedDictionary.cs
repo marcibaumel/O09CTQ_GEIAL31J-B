@@ -8,6 +8,7 @@ namespace LogicalDictionary
 {
     public interface ISortedDictionary
     {
+       
         void AddNewItem(string Title, string Year);
 
         void DeleteAll();
@@ -18,6 +19,6 @@ namespace LogicalDictionary
 
         int EveryItem();
 
-        bool YearInDictionary();
+        bool YearInDictionary(string Year);
     }
 }

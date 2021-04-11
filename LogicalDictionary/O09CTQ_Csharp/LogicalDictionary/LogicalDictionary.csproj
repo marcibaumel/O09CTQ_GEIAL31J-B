@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\SortedDictionary.cs" />
     <Compile Include="IOmdbAPI.cs" />
     <Compile Include="Implementations\OmdbAPI.cs" />
     <Compile Include="ISortedDictionary.cs" />
