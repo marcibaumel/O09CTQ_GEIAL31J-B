@@ -14,3 +14,4 @@ namespace LogicalDictionary
         SortedDictionary<string, string> ReadAllFiles();
     }
 }
+
