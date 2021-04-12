@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OQ01QJFm6jggWylgYGpw05JX+LX5xrE9CdPnT58vbVX7WfpEjrhO7+fkcK/DbehSUs7gaIiggKAv7PwwAgddEA==",
+  "success": true,
+  "projectFilePath": "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\LogicalDictionary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Márton\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

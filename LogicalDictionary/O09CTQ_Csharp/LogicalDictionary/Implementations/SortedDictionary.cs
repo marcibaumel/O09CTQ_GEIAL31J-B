@@ -19,7 +19,7 @@ namespace LogicalDictionary.Implementations
         {
             try
             {
-                sortedDictionary.Add("txt", "winword.exe");
+                sortedDictionary.Add(Title, Year);
             }
             catch (ArgumentException)
             {

@@ -1,0 +1,9 @@
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\obj\Debug\LogicalDictionary.csprojAssemblyReference.cache
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\obj\Debug\LogicalDictionary.csproj.CoreCompileInputs.cache
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\bin\Debug\LogicalDictionary.exe.config
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\bin\Debug\LogicalDictionary.exe
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\bin\Debug\LogicalDictionary.pdb
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\bin\Debug\Newtonsoft.Json.dll
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\obj\Debug\LogicalDictionary.csproj.CopyComplete
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\obj\Debug\LogicalDictionary.exe
+D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\obj\Debug\LogicalDictionary.pdb

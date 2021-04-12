@@ -8,7 +8,8 @@ namespace LogicalDictionary
 {
     public interface IOmdbAPI
     {
-        void GetOmdbData(string Title, string Year);
+        string GetOmdbData();
 
+        FilmModel JsonConvertByResult(string Result);
     }
 }

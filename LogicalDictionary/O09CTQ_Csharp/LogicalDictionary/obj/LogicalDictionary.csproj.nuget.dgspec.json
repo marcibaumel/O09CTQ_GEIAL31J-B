@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\LogicalDictionary.csproj": {}
+  },
+  "projects": {
+    "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\LogicalDictionary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\LogicalDictionary.csproj",
+        "projectName": "LogicalDictionary",
+        "projectPath": "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\LogicalDictionary.csproj",
+        "packagesPath": "C:\\Users\\Márton\\.nuget\\packages\\",
+        "outputPath": "D:\\WORK\\EGYETEM\\4 FÉLÉV\\Repos\\CsharpBeadndó\\LogicalDictionary\\O09CTQ_Csharp\\LogicalDictionary\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Márton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://teamcity.monogame.net/guestAuth/app/nuget/feed/_Root/default/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

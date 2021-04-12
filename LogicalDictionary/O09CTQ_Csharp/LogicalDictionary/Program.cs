@@ -10,6 +10,16 @@ namespace LogicalDictionary
     {
         static void Main(string[] args)
         {
+            /*
+            //Test Case
+
+            OmdbAPI OmdbTesz = new OmdbAPI("Cherry", "2021");
+            string test = OmdbTesz.GetOmdbData();
+            Console.WriteLine(test);
+            FilmModel testFilm = OmdbTesz.JsonConvertByResult(test);
+            Console.WriteLine(testFilm.Title +" " + testFilm.ImdbRating);
+            Console.ReadLine();
+            */
         }
     }
 }
