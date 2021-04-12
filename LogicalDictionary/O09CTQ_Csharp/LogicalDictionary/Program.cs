@@ -12,7 +12,6 @@ namespace LogicalDictionary
         {
             /*
             //Test Case
-
             OmdbAPI OmdbTesz = new OmdbAPI("Cherry", "2021");
             string test = OmdbTesz.GetOmdbData();
             Console.WriteLine(test);

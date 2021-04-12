@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FilmModel.cs" />
+    <Compile Include="IFileManager.cs" />
     <Compile Include="Implementations\SortedDictionary.cs" />
     <Compile Include="IOmdbAPI.cs" />
     <Compile Include="Implementations\OmdbAPI.cs" />
@@ -58,6 +59,9 @@
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Films\Wolfwalkers_2020.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
