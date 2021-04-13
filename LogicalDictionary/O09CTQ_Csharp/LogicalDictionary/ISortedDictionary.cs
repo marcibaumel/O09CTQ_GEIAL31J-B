@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LogicalDictionary
 {
-    public interface ISortedDictionary
+    public interface ISortedDictionary 
     {
-       
+        SortedDictionary<string, string> getDictionary();
         void AddNewItem(string Title, string Year);
 
         void DeleteAll();

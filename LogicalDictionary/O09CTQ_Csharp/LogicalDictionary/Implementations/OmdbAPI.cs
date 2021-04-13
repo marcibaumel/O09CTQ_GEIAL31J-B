@@ -23,6 +23,10 @@ namespace LogicalDictionary
             Year = year;
         }
 
+        public OmdbAPI()
+        {
+        }
+
         public string GetOmdbData()
         {
             var RawRequest = new StringBuilder(baseUri);

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace LogicalDictionary.Implementations
 {
@@ -24,11 +25,6 @@ namespace LogicalDictionary.Implementations
         {
             DateTime dt = File.GetLastWriteTime(GivenFile);
             return dt;
-        }
-
-        public void OpenTxt(string Path)
-        {
-            File.OpenText(GivenFile);
         }
 
         public SortedDictionary<string, string> ReadAllFiles()
@@ -55,7 +51,12 @@ namespace LogicalDictionary.Implementations
 
         public void SetMainDirectory(string RelativePath)
         {
-            throw new NotImplementedException();
+            this.GivenFile = RelativePath;
+        }
+
+        public void OpenTxt(SortedDictionary<string, string> Dictionary)
+        {
+            
         }
     }
 }

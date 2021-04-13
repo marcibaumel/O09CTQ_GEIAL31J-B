@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,18 @@ using System.Threading.Tasks;
 
 namespace LogicalDictionary.Implementations
 {
-    public class SortedDictionary : ISortedDictionary
+    public class SortedDictionary : ISortedDictionary, IEnumerable
     {
         private SortedDictionary<string, string> sortedDictionary = new SortedDictionary<string, string>();
 
         public SortedDictionary(SortedDictionary<string, string> sortedDictionary)
         {
             this.sortedDictionary = sortedDictionary;
+        }
+
+        public SortedDictionary<string, string> getDictionary()
+        { 
+            return sortedDictionary;
         }
 
         public void AddNewItem(string Title, string Year)
@@ -55,6 +61,11 @@ namespace LogicalDictionary.Implementations
                 return false;
             }
             return true;
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return (IEnumerator)GetEnumerator();
         }
     }
 }
