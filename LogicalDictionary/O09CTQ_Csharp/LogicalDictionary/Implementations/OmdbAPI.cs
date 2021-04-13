@@ -57,7 +57,7 @@ namespace LogicalDictionary
             {
                 if (ex is WebException || ex is Exception)
                 {
-                    Result.Remove(10000);
+                    Result.Remove(100000000);
                     return Result;
                 }
             }

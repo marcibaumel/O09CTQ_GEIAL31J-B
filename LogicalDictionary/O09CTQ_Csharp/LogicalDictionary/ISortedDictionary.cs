@@ -12,13 +12,13 @@ namespace LogicalDictionary
         SortedDictionary<string, string> getDictionary();
         void AddNewItem(string Title, string Year);
 
-        void DeleteAll();
+        void DeleteMySortedDictionary();
 
-        void GetValueByKey(string Title, string Year);
+        void GetKeyByValue(string Title);
 
-        void ExistingItem(string Title);
+        bool ExistingItem(string Title);
 
-        int EveryItem();
+        int CountMySortedDictionary();
 
         bool YearInDictionary(string Year);
     }

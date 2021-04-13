@@ -16,10 +16,7 @@ namespace LogicalDictionary
         public String Runtime { get; set; }
         public String Actors { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString();
-        }
+       
 
         public FilmModel(string title, string year, string plot, string director, string imdbRating, string runtime, string actors)
         {
@@ -30,6 +27,11 @@ namespace LogicalDictionary
             ImdbRating = imdbRating;
             Runtime = runtime;
             Actors = actors;
+        }
+
+        public override string ToString()
+        {
+            return "Title: "+Title + "\nDirector: " + Director + "\n ImdbRating:" + ImdbRating+"\n\n";
         }
 
         public FilmModel(){}

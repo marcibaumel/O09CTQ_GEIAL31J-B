@@ -1,0 +1,84 @@
+Title: Cats
+Director: Tom Hooper
+ ImdbRating:2.7
+
+Title: Cherry
+Director: Anthony Russo, Joe Russo
+ ImdbRating:6.4
+
+Title: Dracula
+Director: Tod Browning, Karl Freund
+ ImdbRating:7.5
+
+Title: Gladiator
+Director: Ridley Scott
+ ImdbRating:8.5
+
+Title: Hamilton
+Director: Thomas Kail
+ ImdbRating:8.5
+
+Title: Inception
+Director: Christopher Nolan
+ ImdbRating:8.8
+
+Title: Mank
+Director: David Fincher
+ ImdbRating:7.0
+
+Title: Minari
+Director: Lee Isaac Chung
+ ImdbRating:7.7
+
+Title: Mulan
+Director: Niki Caro
+ ImdbRating:5.6
+
+Title: Nomadland
+Director: Chloé Zhao
+ ImdbRating:7.6
+
+Title: Onward
+Director: Dan Scanlon
+ ImdbRating:7.4
+
+Title: Palm Springs
+Director: Max Barbakow
+ ImdbRating:7.4
+
+Title: Redline
+Director: Takeshi Koike
+ ImdbRating:7.5
+
+Title: Se7en
+Director: David Fincher
+ ImdbRating:8.6
+
+Title: Soul
+Director: Pete Docter, Kemp Powers(co-director)
+ ImdbRating:8.1
+
+Title: Tenet
+Director: Christopher Nolan
+ ImdbRating:7.5
+
+Title: The Father
+Director: Florian Zeller
+ ImdbRating:8.2
+
+Title: The Matrix
+Director: Lana Wachowski, Lilly Wachowski
+ ImdbRating:8.7
+
+Title: The Shining
+Director: Stanley Kubrick
+ ImdbRating:8.4
+
+Title: Whiplash
+Director: Damien Chazelle
+ ImdbRating:8.5
+
+Title: Wolfwalkers
+Director: Tomm Moore, Ross Stewart
+ ImdbRating:8.1
+

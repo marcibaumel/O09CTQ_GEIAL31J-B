@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LogicalDictionary.Implementations
 {
-    public class SortedDictionary : ISortedDictionary, IEnumerable
+    public class SortedDictionary : ISortedDictionary
     {
         private SortedDictionary<string, string> sortedDictionary = new SortedDictionary<string, string>();
 
@@ -33,24 +33,31 @@ namespace LogicalDictionary.Implementations
             }
         }
 
-        public void DeleteAll()
+        public void DeleteMySortedDictionary()
         {
             sortedDictionary.Clear();
         }
 
-        public int EveryItem()
+        public int CountMySortedDictionary()
         {
-            throw new NotImplementedException();
+            return sortedDictionary.Count();
         }
 
-        public void ExistingItem(string Title)
+        public bool ExistingItem(string Title)
         {
-            throw new NotImplementedException();
+            return sortedDictionary.ContainsKey(Title);
         }
 
-        public void GetValueByKey(string Title, string Year)
+        public void GetKeyByValue(string Year)
         {
-            throw new NotImplementedException();
+
+            foreach(KeyValuePair<string, string> kvp in sortedDictionary)
+            {
+                if (kvp.Value == Year)
+                {
+                    Console.WriteLine(kvp.Key);
+                }
+            }
         }
 
         public bool YearInDictionary(string Year)
@@ -63,9 +70,5 @@ namespace LogicalDictionary.Implementations
             return true;
         }
 
-        public IEnumerator GetEnumerator()
-        {
-            return (IEnumerator)GetEnumerator();
-        }
     }
 }

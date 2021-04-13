@@ -12,7 +12,7 @@ namespace LogicalDictionary
     {
         void SetMainDirectory(string RelativePath);
         DateTime LastModified();
-        void OpenTxt(SortedDictionary<string, string> Dictionary);
+        void SaveOmdbData(SortedDictionary<string, string> Dictionary);
         SortedDictionary<string, string> ReadAllFiles();
         
     }

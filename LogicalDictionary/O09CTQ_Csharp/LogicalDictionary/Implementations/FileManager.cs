@@ -12,9 +12,7 @@ namespace LogicalDictionary.Implementations
     {
         private string Folder { get; set; }
         private string GivenFile { get; set; }
-        private SortedDictionary<string, string> Dictionary { get; set; }
-
-
+        private IOmdbAPI omdbAPI;
         public FileManager(string folder, string givenFile)
         {
             Folder = folder;
@@ -43,7 +41,7 @@ namespace LogicalDictionary.Implementations
                     string[] keyValue = item.Split('-');
                     sortedDictionary.Add(keyValue[0], keyValue[1]);
                 }
-                
+            
             }
            return sortedDictionary;
             
@@ -54,9 +52,25 @@ namespace LogicalDictionary.Implementations
             this.GivenFile = RelativePath;
         }
 
-        public void OpenTxt(SortedDictionary<string, string> Dictionary)
+        public void SaveOmdbData(SortedDictionary<string, string> Dictionary)
         {
+            StreamWriter sw = new StreamWriter(GivenFile);
             
+            foreach (KeyValuePair<string, string> pair in Dictionary)
+            {
+                Console.WriteLine("Title: {0} and Year: {1} has been found", pair.Key, pair.Value);
+                omdbAPI = new OmdbAPI(pair.Key, pair.Value);
+
+                FilmModel result = omdbAPI.JsonConvertByResult(omdbAPI.GetOmdbData());  
+                try {
+                    sw.Write(result.ToString());
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("Exception: " + e.Message);
+                }  
+            }
+            sw.Close();
         }
     }
 }
