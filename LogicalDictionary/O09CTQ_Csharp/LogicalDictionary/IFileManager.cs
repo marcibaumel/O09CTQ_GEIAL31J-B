@@ -9,7 +9,7 @@ namespace LogicalDictionary
     public interface IFileManager
     {
         void SetMainDirectory(string RelativePath);
-        string LastModified();
+        DateTime LastModified();
         void OpenTxt(string Path);
         SortedDictionary<string, string> ReadAllFiles();
     }

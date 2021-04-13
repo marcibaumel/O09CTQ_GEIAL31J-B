@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicalDictionary.Implementations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,17 @@ namespace LogicalDictionary
             FilmModel testFilm = OmdbTesz.JsonConvertByResult(test);
             Console.WriteLine(testFilm.Title +" " + testFilm.ImdbRating);
             Console.ReadLine();
+            
+
+            FileManager fl = new FileManager(@"D:\WORK\EGYETEM\4 FÉLÉV\Repos\CsharpBeadndó\LogicalDictionary\O09CTQ_Csharp\LogicalDictionary\Films\", "");
+
+            SortedDictionary<string, string> test;
+
+            test = fl.ReadAllFiles();
+
             */
+
+
         }
     }
 }

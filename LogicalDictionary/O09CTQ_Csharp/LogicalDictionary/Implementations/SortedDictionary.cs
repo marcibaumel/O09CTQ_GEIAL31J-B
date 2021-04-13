@@ -49,7 +49,7 @@ namespace LogicalDictionary.Implementations
 
         public bool YearInDictionary(string Year)
         {
-            bool ExistingItem = sortedDictionary.ContainsKey(Year);
+            bool ExistingItem = sortedDictionary.ContainsValue(Year);
             if (!ExistingItem)
             {
                 return false;

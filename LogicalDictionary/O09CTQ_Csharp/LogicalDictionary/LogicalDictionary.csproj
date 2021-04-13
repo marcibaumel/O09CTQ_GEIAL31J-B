@@ -44,13 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FilmModel.cs" />
+    <Content Include="Films\Cherry-2021.txt" />
     <Compile Include="IFileManager.cs" />
+    <Compile Include="Implementations\FileManager.cs" />
     <Compile Include="Implementations\SortedDictionary.cs" />
     <Compile Include="IOmdbAPI.cs" />
     <Compile Include="Implementations\OmdbAPI.cs" />
     <Compile Include="ISortedDictionary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Films\The_Father-2020.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,8 +63,9 @@
       <Version>13.0.1</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Films\" />
+    <Content Include="Films\Wolfwalkers-2020.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
